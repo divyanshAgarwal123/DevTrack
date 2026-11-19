@@ -1,0 +1,1 @@
+Browser evidence for assigned issue448; exact source c4b300b7eb193f61a351e6d2f29365c3cf15746b. Actual production Contests route with synthetic API/Clerk and healthy localhost SSE fixtures. Desktop monthly view, mobile weekly view scrolled to event columns, and event details. No real user data or live host contest claims. Fork-only evidence branch, no separate PR.
