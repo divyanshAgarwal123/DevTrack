@@ -1,0 +1,54 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "port": 5351,
+      "actualInterviewRoute": true,
+      "existingClerkFixture": true,
+      "productionClerkAuthOrBackendTested": false,
+      "realWebAudioAndMediaStream": true,
+      "synthetic440HzInput": true,
+      "actualCanvasPixels": 2048,
+      "frequencyBars32": true,
+      "realSilenceThresholdAndRecovery": true,
+      "nativeStartSpaceRetryEnterSubmitCtrlEnter": true,
+      "typedAndSpokenDraftPreserved": true,
+      "ownedTrackEndAndContextClose": true,
+      "deniedNoAutoRetry": true,
+      "latePermissionAfterStopCleaned": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ]
+    },
+    {
+      "port": 5352,
+      "actualInterviewRoute": true,
+      "existingClerkFixture": true,
+      "productionClerkAuthOrBackendTested": false,
+      "realWebAudioAndMediaStream": true,
+      "synthetic440HzInput": true,
+      "actualCanvasPixels": 3488,
+      "frequencyBars32": true,
+      "realSilenceThresholdAndRecovery": true,
+      "nativeStartSpaceRetryEnterSubmitCtrlEnter": true,
+      "typedAndSpokenDraftPreserved": true,
+      "ownedTrackEndAndContextClose": true,
+      "deniedNoAutoRetry": true,
+      "latePermissionAfterStopCleaned": true,
+      "layouts": [
+        320,
+        375,
+        430,
+        850,
+        1360
+      ]
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "fixture": "Existing DEVTRACK_E2E_FIXTURE Clerk stand-in and synthetic API responses only; real application route/React/canvas/WebAudio/MediaStream. SpeechRecognition boundary is a deterministic stand-in; no vendor transcription or physical microphone was tested."
+}
