@@ -1,0 +1,19 @@
+{
+  "source": {
+    "frontend/src/features/interview/components/AnswerComposer.tsx": "94020a8524bf4c21543a092b19a472a3b39ce39fb2ac60c1025b813052981a41",
+    "frontend/src/features/interview/components/LiveAudioWaveform.tsx": "388bb47d75a1ca1f1d696d0ef996bef51258af3a1944e27a54220b9d9f5a22d0",
+    "frontend/src/features/interview/hooks/useAudioVisualizer.ts": "8e46e49da04daa031596dd994949b20b5ddbe52df18760e472152c866d5e3f80",
+    "frontend/src/features/interview/__tests__/LiveAudioWaveform.test.tsx": "fe1843fc1fc7b8812482254559c2bd0492b6902f1fcf0c79f59569789cd7e395"
+  },
+  "builds": {
+    "normal": {
+      "entry": "assets/InterviewStudioPage-kYSUJJeZ.js",
+      "sha256": "75234591873876608930e57f69f5c49e5240f1ac4e89830b0f2e4f3cac075f2a"
+    },
+    "fixture": {
+      "entry": "assets/InterviewStudioPage-CbablRNv.js",
+      "sha256": "73d6bb55516a20f3cef57bfc8dda91fa8e159c8ceb7ea25298ebe6002b2a8a4e"
+    }
+  },
+  "base": "9f78ab8676ec8b604a1b5d0b089afc326e0289b7"
+}
