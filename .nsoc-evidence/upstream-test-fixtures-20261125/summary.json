@@ -1,0 +1,59 @@
+{
+  "upstreamOwnerCommit": "258a08261685d92c96b8fb629002e3f509875919",
+  "ownerImplementationNotOurs": true,
+  "source": {
+    "643": {
+      "sourceHead": "6e33823d9e8262965fbc5245efa4be4ce1e11939",
+      "actualParents": [
+        "7171a18ba80fd4c3a11f755fb7b1ccbe137c1d60",
+        "258a08261685d92c96b8fb629002e3f509875919"
+      ],
+      "ownFilesAgainstUpstream": {
+        "DEPLOYMENT.md": "252118183fb8d48913654c306b6e3a12d957f14f",
+        "backend/src/__tests__/integration/publicProfile.stampede.integration.test.ts": "80d0638695e26d8740244639881ecedc368ba094",
+        "backend/src/__tests__/modules/profile/publicProfile.service.test.ts": "502652baa3ed4ad814f86c126c9d5b24fd1dba71",
+        "backend/src/modules/profile/portfolioCache.service.ts": "3a8f044201a29bc015607caaef934898b982f25d",
+        "backend/src/modules/profile/publicProfile.service.ts": "54b4109f3ab8416b671f529bce0da9a6be6a8725"
+      }
+    },
+    "635": {
+      "sourceHead": "40e5266c8c0edb2b409905aeb0039365ab7fe0a1",
+      "actualParents": [
+        "6fa70eda7cd6ae59e2e9cdd66bff1e263bdb5a36",
+        "258a08261685d92c96b8fb629002e3f509875919"
+      ],
+      "ownFilesAgainstUpstream": {
+        "DEPLOYMENT.md": "db73b74a2e8bc0e452db96547fb2a881f316873f",
+        "backend/src/__tests__/shared/observability/metrics.test.ts": "2cd7d03623974636341d2388a3628074dc8fd795",
+        "backend/src/__tests__/shared/runtime/healthProbes.test.ts": "f39c96decbdba6583a9986b693ada03fed6718f8",
+        "backend/src/shared/runtime/healthProbes.ts": "8a72eac4fe9fb1e0bbdc443c2904e8eb97e551fb"
+      }
+    }
+  },
+  "unit": {
+    "643": {
+      "mainVitestPassed": 3196,
+      "skipped": 10,
+      "canonicalSideSuites": "PASS"
+    },
+    "635": {
+      "mainVitestPassed": 3204,
+      "skipped": 10,
+      "canonicalSideSuites": "PASS"
+    }
+  },
+  "build": "Both PASS,1055files",
+  "focused": {
+    "643": "87pass1skip;includesall44realMongo mission cases",
+    "635": "32probe/metrics pass;4archive timeouts",
+    "upstreamArchive": "Same4archive timeout cases reproduced on unchanged upstream258a082;2pass"
+  },
+  "integration": {
+    "643": "57pass1fail plus SSE suite teardown error;Redis teardown1000ms",
+    "635": "55pass2fail:evidence-ledgermigration5000ms timeout thenuniqueness8vs1;notreproducedonexactupstreaminthisrun",
+    "upstream258a082": "56pass1fail plus SSE suite teardown error;identicalRedis teardown1000ms"
+  },
+  "testSafety": "InheritedMONGODB_URIandMONGO_TEST_URIremoved;ownedMongo7.0.14replicasetsandprivateephemeralRedis;allownedRedisserversstopped",
+  "publication": "ExistingdraftPRrepairs;NOTready;noassertionsskipsortimeoutschanged",
+  "transcriptNormalization": "Trailing whitespace only; raw originals retained locally."
+}

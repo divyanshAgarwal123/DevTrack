@@ -1,0 +1,125 @@
+
+> devtrack-backend@0.1.0 test:unit
+> npm run test:safety && npm run test:score-differential && npm run test:bullet-rewrite && npm run test:interview-guard && npm run test:interview-evaluation && vitest run
+
+
+> devtrack-backend@0.1.0 test:safety
+> vitest run -c vitest.safety.config.ts
+
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack608/backend
+
+
+ Test Files  1 passed (1)
+      Tests  16 passed (16)
+   Start at  09:24:57
+   Duration  145ms (transform 24ms, setup 0ms, import 35ms, tests 11ms, environment 0ms)
+
+
+> devtrack-backend@0.1.0 test:score-differential
+> vitest run -c vitest.score-differential.config.ts
+
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack608/backend
+
+
+ Test Files  1 passed (1)
+      Tests  23 passed | 1 skipped (24)
+   Start at  09:24:58
+   Duration  1.28s (transform 295ms, setup 0ms, import 763ms, tests 416ms, environment 0ms)
+
+
+> devtrack-backend@0.1.0 test:bullet-rewrite
+> vitest run -c vitest.bullet-rewrite.config.ts
+
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack608/backend
+
+
+ Test Files  1 passed (1)
+      Tests  46 passed (46)
+   Start at  09:25:00
+   Duration  332ms (transform 84ms, setup 0ms, import 158ms, tests 79ms, environment 0ms)
+
+
+> devtrack-backend@0.1.0 test:interview-guard
+> vitest run -c vitest.interview-guard.config.ts
+
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack608/backend
+
+
+ Test Files  2 passed (2)
+      Tests  29 passed (29)
+   Start at  09:25:00
+   Duration  3.80s (transform 103ms, setup 0ms, import 425ms, tests 3.19s, environment 0ms)
+
+
+> devtrack-backend@0.1.0 test:interview-evaluation
+> vitest run -c vitest.interview-evaluation.config.ts
+
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack608/backend
+
+
+ Test Files  2 passed (2)
+      Tests  31 passed (31)
+   Start at  09:25:04
+   Duration  2.62s (transform 101ms, setup 0ms, import 373ms, tests 2.06s, environment 0ms)
+
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack608/backend
+
+[globalSetup] Started shared MongoMemoryReplSet: mongodb://127.0.0.1:53589/?replicaSet=testset
+(node:41818) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41818) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:42268) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:42771) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43187) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43234) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+GET 200 0.628 ms
+(node:43239) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43392) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43394) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43575) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43580) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43949) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43952) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44170) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44303) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44356) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44478) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44504) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44872) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44878) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44893) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44932) [MONGOOSE] Warning: `errors` is a reserved schema pathname and may break some functionality. You are allowed to use it, but use at your own risk. To disable this warning pass `suppressReservedKeysWarning` as a schema option.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ Test Files  251 passed | 3 skipped (254)
+      Tests  3196 passed | 10 skipped (3206)
+   Start at  09:25:07
+   Duration  302.83s (transform 5.69s, setup 45.66s, import 32.95s, tests 198.58s, environment 15ms)
+
+[globalSetup] Stopping shared MongoMemoryReplSet

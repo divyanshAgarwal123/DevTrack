@@ -1,0 +1,50 @@
+{
+  "upstreamIntegrationHead": "258a08261685d92c96b8fb629002e3f509875919",
+  "sources": {
+    "643": {
+      "sourceHead": "6e33823d9e8262965fbc5245efa4be4ce1e11939",
+      "actualParents": [
+        "7171a18ba80fd4c3a11f755fb7b1ccbe137c1d60",
+        "258a08261685d92c96b8fb629002e3f509875919"
+      ],
+      "ownFilesAgainstUpstream": {
+        "DEPLOYMENT.md": "252118183fb8d48913654c306b6e3a12d957f14f",
+        "backend/src/__tests__/integration/publicProfile.stampede.integration.test.ts": "80d0638695e26d8740244639881ecedc368ba094",
+        "backend/src/__tests__/modules/profile/publicProfile.service.test.ts": "502652baa3ed4ad814f86c126c9d5b24fd1dba71",
+        "backend/src/modules/profile/portfolioCache.service.ts": "3a8f044201a29bc015607caaef934898b982f25d",
+        "backend/src/modules/profile/publicProfile.service.ts": "54b4109f3ab8416b671f529bce0da9a6be6a8725"
+      }
+    },
+    "635": {
+      "sourceHead": "40e5266c8c0edb2b409905aeb0039365ab7fe0a1",
+      "actualParents": [
+        "6fa70eda7cd6ae59e2e9cdd66bff1e263bdb5a36",
+        "258a08261685d92c96b8fb629002e3f509875919"
+      ],
+      "ownFilesAgainstUpstream": {
+        "DEPLOYMENT.md": "db73b74a2e8bc0e452db96547fb2a881f316873f",
+        "backend/src/__tests__/shared/observability/metrics.test.ts": "2cd7d03623974636341d2388a3628074dc8fd795",
+        "backend/src/__tests__/shared/runtime/healthProbes.test.ts": "f39c96decbdba6583a9986b693ada03fed6718f8",
+        "backend/src/shared/runtime/healthProbes.ts": "8a72eac4fe9fb1e0bbdc443c2904e8eb97e551fb"
+      }
+    }
+  },
+  "ready": false,
+  "artifacts": {
+    "README.md": "c842423210d2e5d32b413c3ff2bdfeadbe3e7dd6d809465cff88ecb5d5b91de4",
+    "dev-parent258-archive.txt": "93c8c7ee8f6928d946f6d8d0954053c8d22d87418d90f7f40d330d59e22fe48f",
+    "dev635-build.txt": "961656fec9076c26fe433884e4c8d7288a6da016b05c3b737f54a3cac81c4084",
+    "dev635-focused.txt": "0d4654fbbf7f2c66d78a8bbf2fe17426af4a569afee4628b03318b118012a3b8",
+    "dev635-test-integration.txt": "acfa506e592355093ad7a03f48e985ec4ac8ce90e658f24385b92e3c5126cf7f",
+    "dev635-test-unit.txt": "fd3ad58c7d06cba254b858efd4f06d4b8beb65665de1c32438119227d4493711",
+    "dev635-validation.json": "c454cf757dc95e43408065bebfb613f6d008678fed80b5dd3c36e871e635a3eb",
+    "dev643-build.txt": "611bb5641f3024c4f4e9d753acebf26ea27c00bb27b63c2a1701dab2df64e7b8",
+    "dev643-focused.txt": "d7cf669f3825ad64f1613453b7d284767edd18f4ba702fbfeda0b60863b6f549",
+    "dev643-test-integration.txt": "e5cc7ad403f5c3c661326fdc95ab801002b1ae0b477aa024fcbac5bc91e8e93c",
+    "dev643-test-unit.txt": "c1b073115bc77c5cc393c2fed531955081abff669c8b8fbba3c6c2a823be1e36",
+    "dev643-validation.json": "fa4a0225b1f1ea4be4e51706a2ca1c6bbe5ccd583e6958d002be9534afe7a531",
+    "devparent258-test-integration.txt": "b6532f053c02b850f9e9aeaf8a27c025d0a5907f2f2f24b12fa95a654799ffc0",
+    "devparent258-validation.json": "9787619d1da91560af0455e8b45f295b601ee7b0392942ca0114e9d5f55a2ec6",
+    "summary.json": "e1cf216f40f980d4d778bd1d3f18cb51ab95c95edec2ee48522bbe0fefbd4524"
+  }
+}

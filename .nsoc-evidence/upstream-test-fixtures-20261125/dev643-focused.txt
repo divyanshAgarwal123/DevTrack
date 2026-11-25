@@ -1,0 +1,11 @@
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack608/backend
+
+[globalSetup] Started shared MongoMemoryReplSet: mongodb://127.0.0.1:53183/?replicaSet=testset
+
+ Test Files  3 passed (3)
+      Tests  87 passed | 1 skipped (88)
+   Start at  09:23:11
+   Duration  25.79s (transform 712ms, setup 809ms, import 1.45s, tests 21.24s, environment 0ms)
+
+[globalSetup] Stopping shared MongoMemoryReplSet

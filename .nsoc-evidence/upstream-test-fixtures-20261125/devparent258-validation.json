@@ -1,0 +1,15 @@
+{
+  "pr": null,
+  "head": "258a08261685d92c96b8fb629002e3f509875919",
+  "checks": [
+    {
+      "name": "test:integration",
+      "exitCode": 1,
+      "startedAt": "2026-11-25T04:04:21.673343+00:00",
+      "finishedAt": "2026-11-25T04:07:00.852769+00:00",
+      "log": "devparent258-test:integration.log"
+    }
+  ],
+  "ownedRedisPort": 64157,
+  "ownedRedisStopped": true
+}

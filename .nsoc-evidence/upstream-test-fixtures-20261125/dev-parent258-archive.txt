@@ -1,0 +1,80 @@
+
+ RUN  v4.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/devtrack-parent-258a082/backend
+
+[globalSetup] Started shared MongoMemoryReplSet: mongodb://127.0.0.1:59357/?replicaSet=testset
+ ✓ src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > migrates submissions older than 180 days into the archive and removes them from hot 2524ms
+ × src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > processes more than one batch when eligible records exceed batch size 30042ms
+   → Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ × src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > rolls back hot deletion when cold insertion fails (transactional) 30031ms
+   → Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ × src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > does not migrate recent submissions below the age threshold 30030ms
+   → Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ × src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > unified query returns archived records when includeArchived is true 30028ms
+   → Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ✓ src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive constants > uses a 180-day threshold and batch size of 500 17ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > processes more than one batch when eligible records exceed batch size
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/__tests__/modules/dsa/submissionArchive.test.ts:70:3
+     68|   });
+     69|
+     70|   it('processes more than one batch when eligible records exceed batch…
+       |   ^
+     71|     const externalIds: string[] = [];
+     72|     for (let i = 0; i < BATCH_SIZE + 10; i += 1) {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯
+
+ FAIL  src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > rolls back hot deletion when cold insertion fails (transactional)
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/__tests__/modules/dsa/submissionArchive.test.ts:85:3
+     83|   });
+     84|
+     85|   it('rolls back hot deletion when cold insertion fails (transactional…
+       |   ^
+     86|     await seedSubmission({ userId, createdAt: daysAgo(200), externalId…
+     87|     await seedSubmission({ userId, createdAt: daysAgo(200), externalId…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯
+
+ FAIL  src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > does not migrate recent submissions below the age threshold
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/__tests__/modules/dsa/submissionArchive.test.ts:101:3
+     99|   });
+    100|
+    101|   it('does not migrate recent submissions below the age threshold', as…
+       |   ^
+    102|     await seedSubmission({ userId, createdAt: daysAgo(179), externalId…
+    103|     await seedSubmission({ userId, createdAt: daysAgo(181), externalId…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯
+
+ FAIL  src/__tests__/modules/dsa/submissionArchive.test.ts > submissionArchive worker > unified query returns archived records when includeArchived is true
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/__tests__/modules/dsa/submissionArchive.test.ts:116:3
+    114|   });
+    115|
+    116|   it('unified query returns archived records when includeArchived is t…
+       |   ^
+    117|     const old = await seedSubmission({ userId, createdAt: daysAgo(200)…
+    118|     const recent = await seedSubmission({ userId, createdAt: daysAgo(5…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/4]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  4 failed | 2 passed (6)
+   Start at  09:29:09
+   Duration  124.50s (transform 277ms, setup 197ms, import 378ms, tests 122.69s, environment 0ms)
+
+[globalSetup] Stopping shared MongoMemoryReplSet

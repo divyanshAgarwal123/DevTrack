@@ -1,0 +1,10 @@
+
+> devtrack-backend@0.1.0 prebuild
+> node build-ats-core.mjs
+
+
+> devtrack-backend@0.1.0 build
+> tsc -p tsconfig.json && node fix-esm-imports.mjs
+
+[fix-esm-imports] Patching relative imports in ./dist...
+[fix-esm-imports] Done. Patched 3 of 1055 files.

@@ -1,0 +1,29 @@
+{
+  "pr": 635,
+  "head": "40e5266c8c0edb2b409905aeb0039365ab7fe0a1",
+  "checks": [
+    {
+      "name": "build",
+      "exitCode": 0,
+      "startedAt": "2026-11-25T03:55:52.020765+00:00",
+      "finishedAt": "2026-11-25T03:56:08.284371+00:00",
+      "log": "dev635-build.log"
+    },
+    {
+      "name": "test:unit",
+      "exitCode": 0,
+      "startedAt": "2026-11-25T03:56:08.284865+00:00",
+      "finishedAt": "2026-11-25T04:01:21.318812+00:00",
+      "log": "dev635-test:unit.log"
+    },
+    {
+      "name": "test:integration",
+      "exitCode": 1,
+      "startedAt": "2026-11-25T04:01:21.387532+00:00",
+      "finishedAt": "2026-11-25T04:04:04.422399+00:00",
+      "log": "dev635-test:integration.log"
+    }
+  ],
+  "ownedRedisPort": 62053,
+  "ownedRedisStopped": true
+}
